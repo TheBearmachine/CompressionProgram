@@ -111,10 +111,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MapGenerator.cpp" />
     <ClCompile Include="SequiturCompression.cpp" />
+    <ClCompile Include="simplexnoise.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MapGenerator.h" />
     <ClInclude Include="SequiturCompression.h" />
+    <ClInclude Include="simplexnoise.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
